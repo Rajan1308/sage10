@@ -2,7 +2,9 @@
 
 @section('content')
     @include('partials.page-header')
-
+    <x-example-component title="A Component" />
+    <x-example-component title="A Component 2" />
+    <x-example-component title="A Component 3" class="p-3 mb-2 bg-primary text-white" />
     @if (!have_posts())
         <x-alert type="warning">
             {!! __('Sorry, no results were found.', 'sage') !!}
