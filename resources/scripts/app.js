@@ -1,8 +1,10 @@
 import domReady from '@roots/sage/client/dom-ready';
+i;
 import 'bootstrap';
 /**
  * Application entrypoint
  */
+
 domReady(async () => {
   // ...
 });
